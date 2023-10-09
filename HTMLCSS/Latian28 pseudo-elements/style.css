@@ -1,0 +1,36 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: rgb(255, 255, 184);
+}
+
+p::selection{
+    background-color: rgb(56, 56, 56);
+    color:rgb(105, 184, 105)
+}
+
+#fruit li::before{
+    content: "|Tes|";
+}
+
+#apple::after{
+    content: "🍎";
+    background-color: rgb(255, 195, 195);
+}
+#orange::after{
+    content: "🍊";
+    background-color: rgb(255, 214, 138);
+}
+#banana::after{
+    content: "🍌";
+    background-color: rgb(255, 253, 133);
+}
+
+#fruit li::marker{
+    content: "✔️";
+    color: green;
+    font-size: 1.2rem;
+}

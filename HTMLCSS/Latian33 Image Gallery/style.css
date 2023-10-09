@@ -1,0 +1,30 @@
+body{
+    padding: 20px;
+}
+.gallery{
+    display: inline-block; 
+    border: 0px solid black;
+    margin: 5px;
+    box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.384);
+    border-radius: 25px;
+    width: 200px;
+}
+.gallery .descriptions{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery:hover{
+    box-shadow: 3px 3px 17px rgba(0, 0, 0, 0.800);
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:600px) {
+    .gallery{
+        width: 150px;
+    }
+}
