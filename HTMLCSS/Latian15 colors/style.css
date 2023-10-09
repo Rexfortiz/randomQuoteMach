@@ -1,0 +1,15 @@
+body{
+    background-color: hwb(0 15% 85%);
+}
+#p1{
+    color:tomato;
+}
+#p2{
+    color: rgb(200,100,200);
+}
+#p3{
+    color: #59ff5f;
+}
+#p4{
+    color: hsl(340, 100%, 75%);
+}

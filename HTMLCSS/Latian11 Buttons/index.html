@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<body>
+    <a href="https://www.instagram.com/thomasfarelino/" target="_blank">
+        <button style="font-size: 50px;background-color: gray;color: white; border-radius: 25px;">Click Me!</button>
+    </a> 
+
+
+    <button onclick="doSomething()" style="font-size: 50px;background-color: gray;color: white; border-radius: 25px;">Greet Me!</button>
+    
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+        }
+    </script>
+</body>
+</html>

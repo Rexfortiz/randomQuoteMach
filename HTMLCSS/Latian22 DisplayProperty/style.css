@@ -1,0 +1,14 @@
+div{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+span{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+

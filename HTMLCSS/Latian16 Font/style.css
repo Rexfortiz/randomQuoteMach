@@ -1,0 +1,14 @@
+@font-face {
+    font-family: OneSans;
+    src: url(/Fonts/AROneSans-VariableFont_ARRR\,wght.ttf);
+}
+
+h1{
+    font-family: OneSans ,Roboto, Verdana, arial;
+}
+p{
+    font-family: "Open Sans","lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
