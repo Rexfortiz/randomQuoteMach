@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(22, 22, 22);
+}
+#startprogram{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 40px;
+    background-color: rgb(34, 34, 34);
+    margin:1.5%;
+    text-align: center;
+    color: rgb(236, 236, 236);
+    display: block;
+}
+header{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    margin: 1.5%;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: rgb(236, 236, 236);
+}
+#program{
+    display: none;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 40px;
+    background-color: rgb(34, 34, 34);
+    margin:1.5%;
+    text-align: center;
+    color: rgb(236, 236, 236);
+}
+
+#menang{
+    font-size: 2em;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 40px;
+    background-color: rgb(15, 66, 0);
+    margin:1.5%;
+    text-align: center;
+    color: rgb(236, 236, 236);
+    display: none;
+    
+}

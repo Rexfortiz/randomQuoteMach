@@ -1,0 +1,20 @@
+#inputNumber{
+    width: 45px;
+}
+
+#convertText2{
+    border: 1px solid blue;
+    padding-right: 5px;
+    text-align: left;
+}
+#hasil{
+    border: 1px solid black;
+    width: 20px;
+    height: 200px;
+    width: 20px;
+}
+.text1{
+    border: 1px solid blue;
+    width: 200px;
+    text-align: left;
+}
