@@ -1,0 +1,13 @@
+div{
+    padding: 10px;
+    border: 2px solid red;
+    margin: 30px;
+    width: 12em;
+    float: left;
+}
+
+#submit{
+    padding: 12px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
