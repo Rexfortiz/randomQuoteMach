@@ -12,19 +12,34 @@
         <h1>Temperature Conversion</h1>
     </header>
     <main>
-        <div id="program">
-            <label class="text1" id="convertText1">Celsius</label>
-            <label id="convertTextT">to</label>
-            <label id="convertText2">Fahrenheit</label>
-            <button type="button" id="swapBtn"><i class="fa-solid fa-arrow-right-arrow-left fa-xl"></i></button>
+        <div class="outer">
+            <div class="tempText" id="convertText1">
+                <label>Celsius</label>
+            </div>
+            <div class="tempText" id="toText">    
+                    <label>to</label>
+            </div>
+            <div class="tempText" id="convertText2">
+                <label>Fahrenheit</label>
+            </div>
+            <div class="tempText">
+                <button onclick="onClick()" type="button" id="swapBtn"><i class="fa-solid fa-arrow-right-arrow-left fa-xl"></i></button>        
+            </div>
         </div>
-        <div>
-            <input type="number" id="inputNumber">
-            <label> = </label>
-            <label id="hasil">Hasil</label>
-            <button type="button" id="submitBtn">Submit</button>
+        <div class="outer">
+            <div class="program"> 
+                <input type="number" id="inputNumber">
+            </div>
+            <div class="program" id="equalText"> 
+                <label> = </label>
+            </div>
+            <div class="program" id="hasil"> 
+                <label id="hasilDeg">Hasil</label>
+            </div>
+            <div class="program"> 
+                <button type="button" id="submitBtn">Submit</button>
+            </div>
         </div>
-        
     </main>
 
     <script src="index.js"></script>
