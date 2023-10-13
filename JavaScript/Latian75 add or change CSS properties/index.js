@@ -1,0 +1,10 @@
+const title = document.getElementById("myTitle");
+title.style.backgroundColor = "rgb(50,50,50)";
+title.style.color = "lightblue"
+title.style.fontFamily = "consolas";
+title.style.textAlign = "center";
+title.style.border = "2px solid black"
+title.style.borderRadius = "20px"
+title.style.display = "block";
+title.style.marginLeft = "20%"
+title.style.marginRight = "20%"
