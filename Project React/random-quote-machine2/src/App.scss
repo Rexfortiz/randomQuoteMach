@@ -1,0 +1,54 @@
+.App{
+  padding-top: 30vh;
+  #quote-box{
+    margin: auto;
+    max-height: 400px;
+    max-width: 40vw;
+
+    min-height: 100px;
+    min-width: 20vw;
+    padding: 25px 25px 60px 25px;
+    background-color: white;
+    color:black;
+    
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.315);
+    
+    #text{
+      font-weight: bold;
+      font-size: 1.3em
+    }
+    #author{
+      text-align: end;
+    }
+    #tweet-quote{ 
+      float: left;
+      padding-left: 5%;
+    }
+    #new-quote{
+      float: right;
+    }
+  }
+
+  
+  
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+}
+
+@media only screen and (max-width: 700px){
+  button{
+    flex-direction: column-reverse;
+    #new-quote{
+      margin-bottom: 10px;
+    }
+  }
+
+  #tweet-quote{
+    padding: 0%;
+  }
+}
